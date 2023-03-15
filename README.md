@@ -64,16 +64,29 @@
     <td><h2>GGPO (Good Game, Peace Out)</h2></td>
     <td>
       <h3>Description</h3>
-      <p>...</p>
+      <p>A middleware designed to help create a near-lagless online experience for various emulated arcade games and fighting games.
+
+Rollback networking uses input prediction and speculative execution to send player inputs to the game immediately, providing the illusion of a zero-latency network. Using rollback, the same timings, reactions, visual and audio queues, and muscle memory your players build up playing offline will translate directly online. The GGPO networking SDK is designed to make incorporating rollback networking into new and existing games as easy as possible.
+</p>
       <br/>
       <h3>Business Context</h3>
-      <p>...</p>
+      <p>Relevant in multiplayer networking in the Video Game industry (Peer-to-Peer Network specifically).
+
+Problem: Traditional techniques account for network transmission time by adding delay to a player's input, resulting in a sluggish, laggy game-feel.
+
+Created in 2009, the GGPO networking SDK pioneered the use of rollback networking in peer-to-peer games. It's designed specifically to hide network latency in fast paced, twitch style games which require very precise inputs and frame perfect execution. GGPO is written in C, C++, and CMake.
+</p>
       <br/>
       <h3>Key Quality Concerns</h3>
       <ol>
-        <li><b>...:</b></li>
-        <li><b>...:</b></li>
-        <li><b>...:</b></li>
+        <li><b>
+Performance: </b> GGPO takes into consideration 2 or more players’ connection to the network. If the connection difference exceeds a certain threshold then even GGPO will be unable to solve the frame delays. 
+E.g. Player A has 70ms, Player B has 900ms (very high ms causing noticeable lag); Player A will see Player B teleporting around.
+</li>
+        <li><b>Scalability:</b> GGPO only works in Peer-To-Peer network based games, therefore it cannot work with large multiplayer games.</li>
+        <li><b>Bandwidth:</b> GGPO relies on a constant stream of input data from both players in order to accurately predict and roll back the game state. This means that games using GGPO may require more bandwidth than other online games. Developers will need to consider whether players with lower bandwidth connections will be able to effectively use GGPO without experiencing lag or other issues.
+        </li>
+        <li><b>Network Stability:</b> Because GGPO relies on a constant stream of input data from both players, any disruptions to the network connection can cause issues with the game’s synchronization. This means that network stability is particularly important when using GGPO, and developers will need to consider how to handle network disruptions and ensure that the game remains playable in the face of connection issues. </li>
       </ol>
     </td>
   </tr>
