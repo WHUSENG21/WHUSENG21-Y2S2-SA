@@ -46,13 +46,11 @@
       <br/>
       <h3>Key Quality Concerns</h3>
       <ol>
-        <li><b>Test Scalability:</b> Selenium tests must be reliable and consistent, producing the same results each time they are run.</li>
+        <li><b>Test Stability:</b> Selenium tests must be reliable and consistent, producing the same results each time they are run.</li>
         <li><b>Test Coverage:</b> Selenium tests should cover all essential features and functionalities of the application under test.</li>
         <li><b>Test Maintainability:</b> Selenium tests should be easy to maintain, update, and modify when the application changes.</li>
         <li><b>Test Performance:</b> Selenium tests must be efficient and not overly burden the system, as this can cause false test results.</li>
         <li><b>Test Scalability:</b> Selenium tests should be able to handle a large number of test cases and execute them quickly.</li>
-        <li><b>Test Data Management:</b> Selenium tests should be designed to work with different sets of data and configurations, and test data should be managed efficiently.</li>
-        <li><b>Test Reporting:</b> Selenium tests should generate accurate and detailed reports that provide insight into the test results and any issues found.</li>
       </ol>
     </td>
   </tr>
