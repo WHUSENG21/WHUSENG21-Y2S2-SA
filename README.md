@@ -71,9 +71,9 @@
       <br/>
       <h3>Key Quality Concerns</h3>
       <ol>
-        <li><<b>...:</b></li>
-        <li><<b>...:</b></li>
-        <li><<b>...:</b></li>
+        <li><b>...:</b></li>
+        <li><b>...:</b></li>
+        <li><b>...:</b></li>
       </ol>
     </td>
   </tr>
