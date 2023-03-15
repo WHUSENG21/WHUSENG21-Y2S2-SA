@@ -14,32 +14,20 @@
     <td>1</td>
     <td><h2>Spring Boot</h2></td>
     <td>
-      <table>
-        <tr>
-          <td>
-             <h3>Description</h3>
-             <p>The Spring Framework is a popular, open-source enterprise-level tool for creating production-grade applications and services that run on the Java Virtual Machine. Spring Boot simplifies the process of developing with Spring Framework by providing three key capabilities: autoconfiguration, an opinionated approach to configuration, and the ability to generate standalone applications. These elements work in concert to give developers a way to quickly and easily set up a Spring-based app with minimal configuration and setup.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h3>Business Context</h3>
-            <p>Spring Boot is an open-source Java-based framework used to create a micro Service and provides a streamlined, modular approach for creating apps. It is developed by Pivotal Team and is used to build stand-alone and production-ready spring web-applications. It is one specific module that is built as an extension of the Spring framework.Therefore, Spring can be used to develop applications for the web, desktop, mobile, and cloud. It is used by many organizations to build enterprise applications and web applications.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h3>Key Quality Concerns</h3>
-            <ol>
-              <li><b>Security:</b> Spring Boot provides a range of security features, but the user must be aware of the specific security concerns that arise when developing a web application.</li>
-              <li><b>Build and Deployment:</b> Spring Boot makes it easy to build and deploy applications, but it can be difficult to manage the complexity of the deployments.</li>
-              <li><b>Performance:</b> Spring Boot has excellent performance characteristics, but it can be difficult to monitor and optimize the performance of a Spring Boot application. </li>
-              <li><b>Scalability:</b> Spring Boot is designed to be scalable, but it can be difficult to scale an application to meet increased demand.</li>
-              <li><b>Maintenance:</b> Spring Boot provides a range of features for maintaining applications, but it can be difficult to keep up with the maintenance tasks required to keep an application running.</li>
-            </ol>
-          </td>
-        </tr>
-      </table>
+      <h3>Description</h3>
+      <p>The Spring Framework is a popular, open-source enterprise-level tool for creating production-grade applications and services that run on the Java Virtual Machine. Spring Boot simplifies the process of developing with Spring Framework by providing three key capabilities: autoconfiguration, an opinionated approach to configuration, and the ability to generate standalone applications. These elements work in concert to give developers a way to quickly and easily set up a Spring-based app with minimal configuration and setup.</p>
+      <br/>
+      <h3>Business Context</h3>
+      <p>Spring Boot is an open-source Java-based framework used to create a micro Service and provides a streamlined, modular approach for creating apps. It is developed by Pivotal Team and is used to build stand-alone and production-ready spring web-applications. It is one specific module that is built as an extension of the Spring framework.Therefore, Spring can be used to develop applications for the web, desktop, mobile, and cloud. It is used by many organizations to build enterprise applications and web applications.</p>
+      <br/>
+      <h3>Key Quality Concerns</h3>
+      <ol>
+        <li><b>Security:</b> Spring Boot provides a range of security features, but the user must be aware of the specific security concerns that arise when developing a web application.</li>
+        <li><b>Build and Deployment:</b> Spring Boot makes it easy to build and deploy applications, but it can be difficult to manage the complexity of the deployments.</li>
+        <li><b>Performance:</b> Spring Boot has excellent performance characteristics, but it can be difficult to monitor and optimize the performance of a Spring Boot application. </li>
+        <li><b>Scalability:</b> Spring Boot is designed to be scalable, but it can be difficult to scale an application to meet increased demand.</li>
+        <li><b>Maintenance:</b> Spring Boot provides a range of features for maintaining applications, but it can be difficult to keep up with the maintenance tasks required to keep an application running.</li>
+      </ol>
     </td>
   </tr>
   <!-- END: TOPIC#1: SPRING BOOT -->
