@@ -31,6 +31,8 @@
 
 <!-- START: MAIN CONTENT -->
 # **1 - Introduction**
+In this chapter, we will introduce what Selenium is, what is their business context, environment and significance, and the key quality concerns they would like to tackle and bring.
+
 ## 1.1 - Description
 
 Selenium is an open-source project that allows automated testing of web applications across various browsers and platforms. It provides a suite of tools for automating web browsers, including a browser automation framework, a WebDriver API, and a language-specific client library. With Selenium, developers and testers can write scripts to simulate user interactions with a website, such as clicking buttons, filling out forms, and navigating through pages. Selenium supports multiple programming languages, including Java, Python, and JavaScript, making it easy to integrate with existing testing frameworks. It is widely used in the industry for testing web applications, ensuring they work as expected across different browsers and operating systems. Additionally, Selenium is highly extensible, enabling developers to create custom plugins and integrations to extend its capabilities.
