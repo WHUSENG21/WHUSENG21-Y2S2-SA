@@ -15,12 +15,15 @@
   - [1.1 - Description](#11---description)
   - [1.2 - Business Context](#12---business-context)
   - [1.3 - Key Quality Concerns](#13---key-quality-concerns)
-- [2 - Stakeholder Analysis](#2---stakeholder-analysis)
+- [**2 - Stakeholder Analysis**](#2---stakeholder-analysis)
   - [2.1 Stakeholders and their Qualitative Concerns](#21-stakeholders-and-their-qualitative-concerns)
   - [2.2 Selenium WebDriver's Architectural Benefits](#22-selenium-webdrivers-architectural-benefits)
-- [3 - Viewpoints Analysis](#3---viewpoints-analysis)
-- [4 - Perspectives Analysis](#4---perspectives-analysis)
-- [5 - Conclusion](#5---conclusion)
+- [**3 - Viewpoints Analysis**](#3---viewpoints-analysis)
+  - [3.1 - Context View](#31---context-view)
+  - [3.2 - Development View](#32---development-view)
+  - [3.3 - Deployment View](#33---deployment-view)
+- [**4 - Perspectives Analysis**](#4---perspectives-analysis)
+- [**5 - Conclusion**](#5---conclusion)
 - [References](#references)
 
 
@@ -50,18 +53,25 @@ The Selenium Project is formed by a community of users and open source contribut
 
 ---
 
-# 2 - Stakeholder Analysis
+# **2 - Stakeholder Analysis**
 In this chapter, we will analyse Selenium WebDriver's architecture can work with its stakeholders by creating an architecture that would meet their complex, overlapping, and sometimes, needs and concerns that conflict with each other.
 ## 2.1 Stakeholders and their Qualitative Concerns
 
 ## 2.2 Selenium WebDriver's Architectural Benefits
 
 
-# 3 - Viewpoints Analysis
+# **3 - Viewpoints Analysis**
 ...Coming Soon...
-# 4 - Perspectives Analysis
+
+## 3.1 - Context View
+...
+## 3.2 - Development View
+...
+## 3.3 - Deployment View
+...
+# **4 - Perspectives Analysis**
 ...Coming Soon...
-# 5 - Conclusion
+# **5 - Conclusion**
 ...Coming Soon...
 # References
 
