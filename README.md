@@ -17,6 +17,7 @@
   - [1.3 - Key Quality Concerns](#13---key-quality-concerns)
   - [1.4 - File Organisation](#14---file-organisation)
 - [**2 - Stakeholder Analysis**](#2---stakeholder-analysis)
+  - [2.1 - Selenium's Stakeholders](#21---seleniums-stakeholders)
   - [2.2 Selenium's Architectural Benefits](#22-seleniums-architectural-benefits)
 - [**3 - Viewpoints Analysis**](#3---viewpoints-analysis)
   - [3.1 - Context View](#31---context-view)
@@ -64,6 +65,8 @@ The Selenium Project is formed by a community of users and open source contribut
 
 # **2 - Stakeholder Analysis**
 In this chapter, we will analyse Selenium WebDriver's architecture can work with its stakeholders by creating an architecture that would meet their complex, overlapping, and sometimes, needs and concerns that conflict with each other.
+
+## 2.1 - Selenium's Stakeholders
 
 We classify stakeholders based on Rozanski and Woods according to their roles and concerns as in the following table:
 
