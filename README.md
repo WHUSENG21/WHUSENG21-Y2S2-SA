@@ -7,7 +7,7 @@
   <h1>Selenium</h1>
   <h3>The Selenium Browser Automation Project</h3>
   
-  **Version 6**
+  **Version 3.6**
   
   **Contributors**
 
@@ -32,6 +32,21 @@ Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
 </div>
 
  <!-- END: ABSTRACT -->
+
+---
+
+<!-- START: REVISION LOG -->
+
+| Version | Date | Contents |
+| --- | --- | --- |
+| 1.1 | 3/1/23 | |
+| 2.2 | 3/8/23 | |
+| 2.3 | 3/15/23 | |
+| 2.4 | 3/22/23 | |
+| 2.5 | 3/29/23 | |
+| 3.6 | 4/5/23 | |
+
+<!-- END: REVISION LOG -->
 
 ---
 
