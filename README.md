@@ -55,8 +55,8 @@ Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
   </ul>
   </tr>
   <tr><td>2</td><td>2.2</td><td>3/8/23</td><td></td></tr>
-  <tr><td>3</td><td>2.3</td><td>3/15/23</td><td></td></tr>
-  <tr><td>4</td><td>2.4</td><td>3/22/23</td><td></td></tr>
+  <tr><td>3</td><td>2.3</td><td>3/15/23</td><td>reorganisation</td></tr>
+  <tr><td>4</td><td>2.4</td><td>3/22/23</td><td>Stakeholders and their quality concerns</td></tr>
   <tr><td>5</td><td>2.5</td><td>3/29/23</td><td></td></tr>
   <tr><td>6</td><td>3.6</td><td>4/5/23</td><td></td></tr>
   <tr><td>7</td><td>3.7</td><td>4/12/23</td><td></td></tr>
