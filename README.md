@@ -36,6 +36,7 @@ Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
 ---
 
 <!-- START: REVISION LOG -->
+<div align="center">
   <h1>Revision Log</h1>  
 <table>
   <tr>
@@ -64,6 +65,7 @@ Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
   <tr><td>10</td><td>4.10</td><td>5/3/23</td><td></td></tr>
   <tr><td>11</td><td>4.11</td><td>5/10/23</td><td></td></tr>
 </table>
+</div>
 <!-- END: REVISION LOG -->
 
 ---
