@@ -1,6 +1,9 @@
 <!-- START: HEADER -->
 <div align="center">
-  <img width="30%" src="./assets/images/Logo.png" alt="Logo.png"/>
+<div align="center">
+  <img width="200px" src="./assets/images/Logo.png" alt="Logo.png"/>
+  <img width="190px" src="https://victorytale.com/wp-content/uploads/2020/09/689px-Selenium_Logo.png" alt="Selenium Logo"/>
+  </div>
   <h1>Selenium</h1>
   <h3>The Selenium Browser Automation Project</h3>
   <p>This research paper is all about analysing the Software Architecture of the famous open-source project called Selenium. Also known as "The Selenium Browser Automation Project", this open-source project is an umbrella project that creates a wide set of tools, libraries, and extensions for browser automations and tests catering to different environments, domains, and platforms. This research paper would focus on the architecture of one of its known tool - the Selenium WebDriver.</p>
@@ -10,7 +13,16 @@
 <!-- START: TABLE OF CONTENTS -->
 <details open align="left">
   <summary><b>Table of Contents</b></summary>
-  
+
+1 - Introduction
+2 - Stakeholder Analysis
+3 - Context View
+4 - Functional View
+5 - Perspectives Analysis
+6 - Development View
+7 - Technical Debt
+8 - Conclusion
+
 - [**1 - Introduction**](#1---introduction)
   - [1.1 - Description](#11---description)
   - [1.2 - Business Context](#12---business-context)
