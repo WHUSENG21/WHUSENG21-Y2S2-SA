@@ -37,20 +37,33 @@ Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
 
 <!-- START: REVISION LOG -->
 
-| Version | Date | Contents |
-| --- | --- | --- |
-| 1.1 | 3/1/23 | |
-| 2.2 | 3/8/23 | |
-| 2.3 | 3/15/23 | |
-| 2.4 | 3/22/23 | |
-| 2.5 | 3/29/23 | |
-| 3.6 | 4/5/23 | |
-| 3.7 | 4/12/23 | ... |
-| 3.8 | 4/19/23 | ... |
-| 3.9 | 4/26/23 | ... |
-| 4.10 | 5/3/23 | ... |
-| 4.11 | 5/10/23 | ... |
-
+<table>
+  <tr>
+    <th>#</th>
+    <th>Version</th>
+    <th>Date</th>
+    <th>Logs</th>
+  </tr>
+  <tr>
+    <td>1</td><td>1.1</td><td>3/1/23</td>
+    <td>
+      <ul>
+        <li><a href="#11---description">Description</a>,</li> 
+        <li><a href="#12---business-context">Business Context</a>,</li> 
+        <li><a href="#13---key-quality-concerns">Key Quality Concerns</a></td></li>
+  </ul>
+  </tr>
+  <tr><td>2</td><td>2.2</td><td>3/8/23</td><td></td></tr>
+  <tr><td>3</td><td>2.3</td><td>3/15/23</td><td></td></tr>
+  <tr><td>4</td><td>2.4</td><td>3/22/23</td><td></td></tr>
+  <tr><td>5</td><td>2.5</td><td>3/29/23</td><td></td></tr>
+  <tr><td>6</td><td>3.6</td><td>4/5/23</td><td></td></tr>
+  <tr><td>7</td><td>3.7</td><td>4/12/23</td><td></td></tr>
+  <tr><td>8</td><td>3.8</td><td>4/26/23</td><td></td></tr>
+  <tr><td>9</td><td>3.9</td><td>4/19/23</td><td></td></tr>
+  <tr><td>10</td><td>4.10</td><td>5/3/23</td><td></td></tr>
+  <tr><td>11</td><td>4.11</td><td>5/10/23</td><td></td></tr>
+</table>
 <!-- END: REVISION LOG -->
 
 ---
