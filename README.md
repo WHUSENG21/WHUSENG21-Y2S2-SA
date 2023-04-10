@@ -6,22 +6,53 @@
   </div>
   <h1>Selenium</h1>
   <h3>The Selenium Browser Automation Project</h3>
+  
+  **Version 6**
+  
+  **Contributors**
+
+2021326660029 - Alba, Nelson Jr. 
+
+2021326660024 - Lauron, John Albert 
+
+2021326660023 - Plongkaew, Chaiwat 
+
+2021326660027 - Akaaboune, Sifeddine
+
+Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
+ 
+<!-- END: HEADER -->  
+  
+  ---
+  
+  <!-- START: ABSTRACT -->
+  
+  <h1>Abstract</h1>  
   <p>This research paper is all about analysing the Software Architecture of the famous open-source project called Selenium. Also known as "The Selenium Browser Automation Project", this open-source project is an umbrella project that creates a wide set of tools, libraries, and extensions for browser automations and tests catering to different environments, domains, and platforms. This research paper would focus on the architecture of one of its known tool - the Selenium WebDriver.</p>
 </div>
-<!-- END: HEADER -->
+
+ <!-- END: ABSTRACT -->
+
+---
 
 <!-- START: TABLE OF CONTENTS -->
 <details open align="left">
   <summary><b>Table of Contents</b></summary>
 
-1 - Introduction
-2 - Stakeholder Analysis
-3 - Context View
-4 - Functional View
-5 - Perspectives Analysis
-6 - Development View
-7 - Technical Debt
-8 - Conclusion
+<ul>  
+  <li>Abstract</li>
+  <li>Revision Log</li>
+  <li>Table of Contents</li>
+  <li>1 - Introduction</li>
+  <li>2 - Stakeholder Analysis</li>
+  <li>3 - Context View</li>
+  <li>4 - Functional View</li>
+  <li>5 - Perspectives Analysis</li>
+  <li>6 - Development View</li>
+  <li>7 - Technical Debt</li>
+  <li>8 - Conclusion</li>
+  <li>References</li>
+</ul>
 
 - [**1 - Introduction**](#1---introduction)
   - [1.1 - Description](#11---description)
