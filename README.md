@@ -218,223 +218,104 @@ We classify stakeholders based on Rozanski and Woods according to their roles an
 ### 2.1.1 - Acquirers
 *Oversee the procurement of the system or product*
 
+This category includes software development firms, testing service providers, or enterprises that use Selenium for their testing needs. Acquirers are interested in evaluating the features, functionalities, and compatibility of Selenium with their existing systems and processes. They may also be involved in negotiating licensing agreements and pricing models for using the Selenium project.
+
+1. Software development firms such as Microsoft or Google
+1. Testing service providers such as Sauce Labs or BrowserStack
+1. Enterprises that use Selenium for their testing needs, such as Amazon or Netflix
+
 ### 2.1.2 - Assessors
 *Oversee the system’s conformance to standards and legal regulation*
+
+This category of stakeholders is responsible for ensuring that the Selenium project adheres to industry standards, regulations, and legal requirements. Assessors may include standards bodies, compliance auditors, and legal regulators. They are interested in evaluating the quality, safety, and security of the Selenium project and may require compliance documentation, such as test reports or certification records.
+
+1. Standards bodies such as the World Wide Web Consortium (W3C)
 
 ### 2.1.3 - Communicators
 *Explain the system to other stakeholders via its documentation and training materials*
 
+Technical writers, trainers, and instructional designers fall under this category. They are responsible for developing the documentation and training materials required to explain Selenium's features and functionalities to other stakeholders. Communicators work closely with the development team to understand the technical details of Selenium and translate them into user-friendly language. They may also conduct training sessions or webinars to educate users on how to use Selenium.
+
+1. Technical writers such as those working for the Selenium documentation team
+1. Instructional designers such as those creating Selenium training courses
+1. Trainers such as those conducting Selenium webinars or workshops
+
+
 ### 2.1.4 - Developers
 *Construct and deploy the system from specifications (or lead the teams that do this)*
+
+Software engineers and developers who work on designing, coding, and deploying Selenium's framework, libraries, and APIs fall under this category. They are responsible for building and maintaining the Selenium project and contributing to the development of Selenium-based testing tools and plugins. Developers work closely with other stakeholders to understand their requirements and ensure that Selenium is compatible with different operating systems and web browsers.
+
+1. The Selenium project's core development team, including Simon Stewart, Julian Harty, and Jim Evans
+1. Open source contributors who contribute code, bug fixes, and enhancements to Selenium
+1. Third-party developers who create Selenium-based testing tools or plugins, such as the Selenium IDE or Selenium Grid
 
 ### 2.1.5 - Maintainers
 *Manage the evolution of the system once it is operational*
 
+This category of stakeholders is responsible for managing the evolution of the Selenium project once it is operational. Maintainers may include software engineers, testers, or project managers. They are responsible for fixing bugs, adding new features, improving performance, and ensuring that Selenium remains compatible with other software and technologies. Maintainers work closely with developers to ensure that any changes or updates to Selenium are implemented smoothly.
+
+1. Members of the Selenium project's core development team who maintain the codebase, fix bugs, and add new features
+1. Community members who maintain Selenium-based testing tools or plugins
+1. Project managers who oversee the maintenance of the Selenium project
+
 ### 2.1.6 - Production Engineers
 *Design, deploy, and manage the hardware and software environments in which the system will be built, tested, and run*
+
+Engineers who design, deploy, and manage the hardware and software environments in which Selenium is built, tested, and run fall under this category. This may include managing servers, databases, and cloud-based platforms. Production engineers work closely with developers and maintainers to ensure that Selenium is deployed in a secure and scalable environment.
+
+1. Infrastructure engineers at cloud service providers such as Amazon Web Services (AWS) or Google Cloud Platform (GCP)
+1. DevOps engineers who manage the deployment and scaling of the Selenium project
+1. Database administrators who ensure that the Selenium project's data is secure and available
 
 ### 2.1.7 - Suppliers
 *Build and/or supply the hardware, software, or infrastructure on which the system will run*
 
+This category includes companies that build or supply the hardware, software, or infrastructure required to run Selenium. Suppliers may include hosting providers, cloud service providers, and tool vendors. They work closely with other stakeholders to ensure that their products and services are compatible with Selenium.
+
+1. Hardware suppliers such as Dell or HP
+1. Cloud service providers such as Amazon Web Services (AWS) or Google Cloud Platform (GCP)
+1. Tool vendors such as JetBrains or Atlassian
+
 ### 2.1.8 - Support Staff
 *Provide support to users for the product or system when it is running*
+
+Support staff provides technical support and troubleshooting to users who encounter issues while using Selenium. This category includes customer support representatives, technical support engineers, and helpdesk personnel. They work closely with users to resolve any issues and may escalate more complex problems to developers or maintainers.
+
+1. Technical support engineers at testing service providers such as Sauce Labs or BrowserStack
+1. Customer support representatives at software development firms such as Microsoft or Google
+1. Helpdesk personnel at enterprises that use Selenium for their testing needs
 
 ### 2.1.9 - System Administrators
 *Run the system once it has been deployed*
 
+This category of stakeholders is responsible for running and managing the Selenium system once it has been deployed. This includes installing updates, monitoring performance, and ensuring system availability. System administrators work closely with production engineers and maintainers to ensure that Selenium is running smoothly and that any issues are resolved quickly.
+
+1. System administrators at cloud service providers such as AWS or GCP
+1. IT administrators at enterprises that use Selenium for their testing needs
+1. DevOps engineers who manage the deployment and scaling of Selenium-based testing environments
+
 ### 2.1.10 - Testers
 *Test the system to ensure that it is suitable for use*
+
+Testers are individuals or teams who test the Selenium project to ensure that it is suitable for use, that it meets user requirements, and that it is compatible with different operating systems and web browsers. This category includes software testers, quality assurance engineers, and testing service providers. Testers work closely with developers and maintainers to identify and report any bugs or issues that they encounter during testing.
+
+1. Software testers at software development firms such as Microsoft or Google
+1. Quality assurance engineers at enterprises that use Selenium for their testing needs
+1. Testing service providers such as Sauce Labs or BrowserStack
 
 ### 2.1.11 - Users
 *Define the system’s functionality and ultimately make use of it*
 
-
-**Stakeholders in more detail**
-
-<table>
-<tr>
-<th>Type</th>
-<th>Stakeholders</th>
-<th>Description</th>
-</tr>
-
-<tr>
-<td>
-Acquirers
-</td>
-<td>
-<ol>
-<li>Software development firms such as Microsoft or Google</li>
-<li>Testing service providers such as Sauce Labs or BrowserStack</li>
-<li>Enterprises that use Selenium for their testing needs, such as Amazon or Netflix</li>
-
-</ol>
-</td>
-<td>
-This category includes software development firms, testing service providers, or enterprises that use Selenium for their testing needs. Acquirers are interested in evaluating the features, functionalities, and compatibility of Selenium with their existing systems and processes. They may also be involved in negotiating licensing agreements and pricing models for using the Selenium project.
-</td>
-</tr>
-<tr>
-<td>
-Assessors
-</td>
-<td>
-Standards bodies such as the World Wide Web Consortium (W3C)
-</td>
-<td>
-This category of stakeholders is responsible for ensuring that the Selenium project adheres to industry standards, regulations, and legal requirements. Assessors may include standards bodies, compliance auditors, and legal regulators. They are interested in evaluating the quality, safety, and security of the Selenium project and may require compliance documentation, such as test reports or certification records.
-</td>
-</tr>
-
-<tr>
-<td>
-Communicators
-</td>
-<td>
-<ol>
-<li>Technical writers such as those working for the Selenium documentation team</li>
-<li>Instructional designers such as those creating Selenium training courses</li>
-<li>Trainers such as those conducting Selenium webinars or workshops</li>
-
-</ol>
-</td>
-<td>
-Technical writers, trainers, and instructional designers fall under this category. They are responsible for developing the documentation and training materials required to explain Selenium's features and functionalities to other stakeholders. Communicators work closely with the development team to understand the technical details of Selenium and translate them into user-friendly language. They may also conduct training sessions or webinars to educate users on how to use Selenium.
-</td>
-</tr>
-
-<tr>
-<td>
-Developers
-</td>
-<td>
-<ol>
-<li>The Selenium project's core development team, including Simon Stewart, Julian Harty, and Jim Evans</li>
-<li>Open source contributors who contribute code, bug fixes, and enhancements to Selenium</li>
-<li>Third-party developers who create Selenium-based testing tools or plugins, such as the Selenium IDE or Selenium Grid</li>
-
-</ol>
-</td>
-<td>
-Software engineers and developers who work on designing, coding, and deploying Selenium's framework, libraries, and APIs fall under this category. They are responsible for building and maintaining the Selenium project and contributing to the development of Selenium-based testing tools and plugins. Developers work closely with other stakeholders to understand their requirements and ensure that Selenium is compatible with different operating systems and web browsers.
-</td>
-</tr>
-
-<tr>
-<td>
-Maintainers
-</td>
-<td>
-<li>Members of the Selenium project's core development team who maintain the codebase, fix bugs, and add new features</li>
-<li>Community members who maintain Selenium-based testing tools or plugins</li>
-<li>Project managers who oversee the maintenance of the Selenium project</li>
-
-</td>
-<td>
-This category of stakeholders is responsible for managing the evolution of the Selenium project once it is operational. Maintainers may include software engineers, testers, or project managers. They are responsible for fixing bugs, adding new features, improving performance, and ensuring that Selenium remains compatible with other software and technologies. Maintainers work closely with developers to ensure that any changes or updates to Selenium are implemented smoothly.
-</td>
-</tr>
-
-<tr>
-<td>
-Production Engineers
-</td>
-<td>
-<ol>
-<li>Infrastructure engineers at cloud service providers such as Amazon Web Services (AWS) or Google Cloud Platform (GCP)</li>
-<li>DevOps engineers who manage the deployment and scaling of the Selenium project</li>
-<li>Database administrators who ensure that the Selenium project's data is secure and available</li>
-
-</ol>
-</td>
-<td>
-Engineers who design, deploy, and manage the hardware and software environments in which Selenium is built, tested, and run fall under this category. This may include managing servers, databases, and cloud-based platforms. Production engineers work closely with developers and maintainers to ensure that Selenium is deployed in a secure and scalable environment.
-</td>
-</tr>
-
-<tr>
-<td>
-Suppliers
-</td>
-<td>
-<ol>
-<li>Hardware suppliers such as Dell or HP</li>
-<li>Cloud service providers such as Amazon Web Services (AWS) or Google Cloud Platform (GCP)</li>
-<li>Tool vendors such as JetBrains or Atlassian</li>
-</ol>
-</td>
-<td>
-This category includes companies that build or supply the hardware, software, or infrastructure required to run Selenium. Suppliers may include hosting providers, cloud service providers, and tool vendors. They work closely with other stakeholders to ensure that their products and services are compatible with Selenium.
-</td>
-</tr>
-
-<tr>
-<td>
-Support Staff
-</td>
-<td>
-<ol>
-<li>Technical support engineers at testing service providers such as Sauce Labs or BrowserStack</li>
-<li>Customer support representatives at software development firms such as Microsoft or Google</li>
-<li>Helpdesk personnel at enterprises that use Selenium for their testing needs</li>
-</ol>
-
-</td>
-<td>
-Support staff provides technical support and troubleshooting to users who encounter issues while using Selenium. This category includes customer support representatives, technical support engineers, and helpdesk personnel. They work closely with users to resolve any issues and may escalate more complex problems to developers or maintainers.
-</td>
-</tr>
-
-<tr>
-<td>
-System Administrators
-</td>
-<td>
-
-- System administrators at cloud service providers such as AWS or GCP
-- IT administrators at enterprises that use Selenium for their testing needs
-- DevOps engineers who manage the deployment and scaling of Selenium-based testing environments
-
-</td>
-<td>
-This category of stakeholders is responsible for running and managing the Selenium system once it has been deployed. This includes installing updates, monitoring performance, and ensuring system availability. System administrators work closely with production engineers and maintainers to ensure that Selenium is running smoothly and that any issues are resolved quickly.
-</td>
-</tr>
-
-<tr>
-<td>
-Testers
-</td>
-<td>
-
-- Software testers at software development firms such as Microsoft or Google
-- Quality assurance engineers at enterprises that use Selenium for their testing needs
-- Testing service providers such as Sauce Labs or BrowserStack
-
-</td>
-<td>
-Testers are individuals or teams who test the Selenium project to ensure that it is suitable for use, that it meets user requirements, and that it is compatible with different operating systems and web browsers. This category includes software testers, quality assurance engineers, and testing service providers. Testers work closely with developers and maintainers to identify and report any bugs or issues that they encounter during testing.
-</td>
-</tr>
-
-<tr>
-<td>
-Users
-</td>
-<td>
-
-- Software developers who use Selenium to test web applications
-- Automation engineers who use Selenium to create automated test scripts
-- Quality assurance teams who use Selenium to ensure software quality and functionality
-
-</td>
-<td>
 Users of Selenium are individuals or teams who define the system's functionality and ultimately make use of it. This category includes software developers, quality assurance teams, and automation engineers who use Selenium to test web applications. Users are interested in evaluating the features, functionalities, and compatibility of Selenium with their existing software development processes. They may also provide feedback on usability, performance, and other aspects of Selenium that are important to their testing needs.
-</td>
-</tr>
-</table>
+
+1. Software developers who use Selenium to test web applications
+1. Automation engineers who use Selenium to create automated test scripts
+1. Quality assurance teams who use Selenium to ensure software quality and functionality
 
 ## 2.2 - Stakeholder Influence
+
+
 ## 2.3 - Integrators
 
 # **3 - Viewpoints Analysis**
