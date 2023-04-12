@@ -313,15 +313,45 @@ Users of Selenium are individuals or teams who define the system's functionality
 
 # **3 - Viewpoints Analysis**
 ## 3.1 - Context View
-
 ### 3.1.1 - System Scope
+Selenium brings together browser vendors, engineers, and enthusiasts to further an open discussion around the automation of the web platform. Selenium has 3 main components to make itself communicate with a browser such as WebDriver, RemoteWebDriver, and Selenium Server or Selenium Grid. First, at the core of Selenium is WebDriver APIs, an interface to write instruction sets that can be run interchangeably in many browsers. It uses browser automation APIs provided by browser vendors to control the browser and run tests. Once you’ve installed everything, only a few lines of code get you inside a browser. The communication way of selenium can categorize into two types: Direct communication and Remote communication. In direct communication, WebDriver passes commands to the browser through the browser’s driver and receives information back via the same route. In addition, the driver is specific to the browser, such as ChromeDriver for Google’s Chrome/Chromium, GeckoDriver for Mozilla’s Firefox, etc.  In Remote communication, WebDriver will talk to RemoteWebDriver, then RemoteWebDriver will talk to the browser’s driver. Plus, RemoteWebDriver can also take place using Selenium Server or Selenium Grid.
+
+
 ### 3.1.2 - External Entities Involved
+In terms of the relationship between developers and Selenium,  Selenium has role that is to test the framework of developers by using WebDriver. A test framework that is compatible with the language bindings is a bare minimum requirement for developers; examples include NUnit for.NET, JUnit for Java, RSpec for Ruby, etc. Their WebDriver and related actions in their tests should be run and executed by the test framework.
+
 ### 3.1.3 - Context View Explanation
 ...
 
 ## 3.2 - Functional View
+The functional viewpoint of Selenium can be divided into three main components:
 ### 3.2.1 - Capabilities
+
+1. Selenium WebDriver: This is the core component of Selenium. It is responsible for controlling the web browser and sending commands to it. WebDriver supports several different web browsers and allows testers to create automated tests for different web applications.
+
+2. Selenium IDE: This is a graphical user interface that allows testers to record and replay their test scripts. It also provides advanced scripting capabilities, allowing testers to create more complex tests.
+
+3. Selenium Grid: This component allows testers to distribute tests across multiple machines, making it easier to run tests in parallel. It also provides a way to manage the nodes on which tests are running.
+
 ### 3.2.2 - Interfaces and Structure
+These components all interact with each other to provide a complete testing platform. WebDriver is responsible for controlling the web browser and sending commands to it. IDE is used to record and replay test scripts, and Grid is used to distribute tests across multiple machines. Together, all three components provide a powerful testing solution for web applications.
+
+The functional viewpoint focusing on the WebDriver:
+
+Selenium WebDriver is the core component of Selenium and is responsible for controlling the web browser and sending commands to it. It supports multiple web browsers such as Chrome, Firefox, Edge, and Safari, allowing testers to create automated tests for different web applications.
+
+The WebDriver supports two types of commands: 
+- Actions and assertions. Actions are commands that interact with the web browser, such as clicking on elements, entering text, and submitting forms. Assertions are commands that verify  that the web page contains the expected elements and values.
+
+- The WebDriver also provides a number of APIs that allow testers to create more complex tests. These APIs include methods for finding elements, manipulating the DOM, and taking screenshots. WebDriver also provides support for JavaScript and AJAX, allowing testers to create more advanced tests.
+
+- Finally, WebDriver supports various languages such as Java, Python, and JavaScript, allowing testers to create automated tests in the language of their choice. It also provides a number of features to help testers debug their tests, such as logging, breakpoints, and stack traces.
+
+
+
+
+
+
 ## 3.3 - Development View
 ### 3.3.1 - Module Structure
 ### 3.3.2 - Module Dependencies
