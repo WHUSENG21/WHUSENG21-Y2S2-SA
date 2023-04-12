@@ -128,8 +128,19 @@ Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
   - [1.3 - Key Quality Concerns](#13---key-quality-concerns)
   - [1.4 - File Organisation](#14---file-organisation)
 - [**2 - Stakeholder Analysis**](#2---stakeholder-analysis)
-  - [2.1 - Selenium's Stakeholders](#21---seleniums-stakeholders)
-  - [2.2 - Stakeholder Involvement](#22---stakeholder-involvement)
+  - [2.1 - Stakeholders by Category](#21---stakeholders-by-category)
+    - [2.1.1 - Acquirers](#211---acquirers)
+    - [2.1.2 - Assessors](#212---assessors)
+    - [2.1.3 - Communicators](#213---communicators)
+    - [2.1.4 - Developers](#214---developers)
+    - [2.1.5 - Maintainers](#215---maintainers)
+    - [2.1.6 - Production Engineers](#216---production-engineers)
+    - [2.1.7 - Suppliers](#217---suppliers)
+    - [2.1.8 - Support Staff](#218---support-staff)
+    - [2.1.9 - System Administrators](#219---system-administrators)
+    - [2.1.10 - Testers](#2110---testers)
+    - [2.1.11 - Users](#2111---users)
+  - [2.2 - Stakeholder Influence](#22---stakeholder-influence)
   - [2.3 - Integrators](#23---integrators)
 - [**3 - Viewpoints Analysis**](#3---viewpoints-analysis)
   - [3.1 - Context View](#31---context-view)
@@ -201,27 +212,42 @@ The Selenium Project is formed by a community of users and open source contribut
 
 In this chapter, we will analyse Selenium WebDriver's architecture can work with its stakeholders by creating an architecture that would meet their complex, overlapping, and sometimes, needs and concerns that conflict with each other.
 
-## 2.1 - Selenium's Stakeholders
+## 2.1 - Stakeholders by Category
 
-We classify stakeholders based on Rozanski and Woods according to their roles and concerns as in the following table:
+We classify stakeholders based on Rozanski and Woods according to their roles and concerns.
+### 2.1.1 - Acquirers
+*Oversee the procurement of the system or product*
 
-<div align="center">
+### 2.1.2 - Assessors
+*Oversee the system’s conformance to standards and legal regulation*
 
-| Type                  | Description                                                                                                          |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Acquirers             | Oversee the procurement of the system or product                                                                     |
-| Assessors             | Oversee the system’s conformance to standards and legal regulation                                                   |
-| Communicators         | Explain the system to other stakeholders via its documentation and training materials                                |
-| Developers            | Construct and deploy the system from specifications (or lead the teams that do this)                                 |
-| Maintainers           | Manage the evolution of the system once it is operational                                                            |
-| Production Engineers  | Design, deploy, and manage the hardware and software environments in which the system will be built, tested, and run |
-| Suppliers             | Build and/or supply the hardware, software, or infrastructure on which the system will run                           |
-| Support Staff         | Provide support to users for the product or system when it is running                                                |
-| System Administrators | Run the system once it has been deployed                                                                             |
-| Testers               | Test the system to ensure that it is suitable for use                                                                |
-| Users                 | Define the system’s functionality and ultimately make use of it                                                      |
+### 2.1.3 - Communicators
+*Explain the system to other stakeholders via its documentation and training materials*
 
-</div>
+### 2.1.4 - Developers
+*Construct and deploy the system from specifications (or lead the teams that do this)*
+
+### 2.1.5 - Maintainers
+*Manage the evolution of the system once it is operational*
+
+### 2.1.6 - Production Engineers
+*Design, deploy, and manage the hardware and software environments in which the system will be built, tested, and run*
+
+### 2.1.7 - Suppliers
+*Build and/or supply the hardware, software, or infrastructure on which the system will run*
+
+### 2.1.8 - Support Staff
+*Provide support to users for the product or system when it is running*
+
+### 2.1.9 - System Administrators
+*Run the system once it has been deployed*
+
+### 2.1.10 - Testers
+*Test the system to ensure that it is suitable for use*
+
+### 2.1.11 - Users
+*Define the system’s functionality and ultimately make use of it*
+
 
 **Stakeholders in more detail**
 
@@ -408,7 +434,7 @@ Users of Selenium are individuals or teams who define the system's functionality
 </tr>
 </table>
 
-## 2.2 - Stakeholder Involvement
+## 2.2 - Stakeholder Influence
 ## 2.3 - Integrators
 
 # **3 - Viewpoints Analysis**
