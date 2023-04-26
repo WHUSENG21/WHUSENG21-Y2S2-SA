@@ -181,6 +181,10 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
     - [3.2.1 - Capabilities](#321---capabilities)
     - [3.2.2 - Interfaces and Structure](#322---interfaces-and-structure)
   - [3.3 - Development View](#33---development-view)
+    - [Selenium Client Library](#selenium-client-library)
+    - [JSON WIRE PROTOCOL Over HTTP Client](#json-wire-protocol-over-http-client)
+    - [Browser Drivers](#browser-drivers)
+    - [Browsers](#browsers)
     - [3.3.1 - Module Structure](#331---module-structure)
     - [3.3.2 - Module Dependencies](#332---module-dependencies)
     - [3.2.3 - Common Design](#323---common-design)
@@ -412,6 +416,29 @@ The WebDriver supports two types of commands:
 
 ## 3.3 - Development View
 <img src="./assets/images/viewpoints_analysis/development_view/webdriverarchitecture-v1.png">
+
+The architecture of Selenium WebDriver from a development viewpoint consists of the following components:
+1. Selenium Client Library
+1. JSON WIRE PROTOCOL Over HTTP Client
+1. Browser Drivers
+1. Browsers
+
+### Selenium Client Library
+
+The Selenium Client Library consists of various language libraries for Java, Ruby, Python, and other supported languages.
+
+### JSON WIRE PROTOCOL Over HTTP Client
+
+JSON denotes Javascript Object Notation. This component of the Selenium WebDriver plays an important role in the Selenium automation process by transferring data between the server and a client on the web.
+
+### Browser Drivers
+
+Browser drivers are used to carry out the communication between the Selenium WebDriver and the respective browser. The Browser drivers ensure that no details are revealed to the browser regarding the internal logic of the functionalities of the browser.
+
+### Browsers
+Browsers supported are Firefox, Safari, Chrome, and more.
+
+
 
 ### 3.3.1 - Module Structure
 
