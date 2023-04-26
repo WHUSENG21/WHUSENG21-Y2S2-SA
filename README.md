@@ -311,9 +311,9 @@ Users of Selenium are individuals or teams who define the system's functionality
 ## 2.2 - Stakeholder Influence
 Another way to classify the stakeholders of Selenium is to classify them by the power or influence they have to be able to change the system and by their interest in the Selenium Project.
 
-1. Official Selenium Members
-2. Selenium Community
-3. Developers Community
+1. Official Selenium Members - The people who are officially associated with Selenium.
+2. Selenium Community - The Selenium open-source community is the community that helps contribute to the Selenium open-source project in any way (ex: bug reports, feature requests, enhancing documentation, code contributions, etc. )
+3. Developers Community - Community of developers that uses Selenium for their own projects and testing automations.
 4. 
 
 
