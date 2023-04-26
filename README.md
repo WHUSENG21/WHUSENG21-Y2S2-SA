@@ -411,7 +411,11 @@ The WebDriver supports two types of commands:
 
 
 ## 3.3 - Development View
+<img src="./assets/images/viewpoints_analysis/development_view/webdriverarchitecture-v1.png">
+
 ### 3.3.1 - Module Structure
+
+
 ### 3.3.2 - Module Dependencies
 ### 3.2.3 - Common Design
 ### 3.2.4 - Codeline
