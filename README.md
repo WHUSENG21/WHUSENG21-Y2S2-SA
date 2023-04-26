@@ -222,10 +222,10 @@ Their key quality concerns are:
 ## 1.2 - File Organisation
 This document is organised in the following manner:
 
-1. Chapter 2: Stakeholder Analysis
-2. Chapter 3: Viewpoints Analysis
-3. Chapter 4: Perspectives Analysis
-4. Chapter 5: Technical Debt
+1. "Chapter 2: Stakeholder Analysis" focuses on looking outward in terms of the usage of the system by having an explicit stakeholder analysis based on available online documentations, as well as the activity on their open-source Github repository.
+1. "Chapter 3: Viewpoints Analysis" discusses the context and development viewpoints of Selenium by analysing the context in which Selenium operates, as well as discussing the development viewpoint of Selenium where we will discuss and analyse the different modules, layers, components, and dependencies of which Selenium is developed with.
+1. "Chapter 4: Perspectives Analysis" shows an analysis on other aspects that concerns the system to further talk about Selenium's architecture, such as performance, scalability, and usabilty perspectives.
+1. "Chapter 5: Technical Debt" analyses the vunerabilities of the system, as well as attempt to propose solutions and suggestions to resolving these technical debts where feasible and possible.
 
 ---
 
