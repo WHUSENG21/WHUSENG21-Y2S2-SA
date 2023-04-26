@@ -136,7 +136,8 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
         <li><a href="#1---introduction">Introduction (File Organisation)</a>,</li> 
         <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a>,</li>
         <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a>,</li>
-        <li><a href="#4---perspectives-analysis">Pespectives Analysis</a></li>
+        <li><a href="#4---perspectives-analysis">Pespectives Analysis</a>,</li>
+        <li><a href="#5---technical-debt">Technical Debt</a></li>
       </ul>
     </td>
   </tr>
@@ -192,6 +193,9 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
   - [4.2 - Usability Perspective](#42---usability-perspective)
 - [**5 - Technical Debt**](#5---technical-debt)
   - [5.1 - Code Quality](#51---code-quality)
+    - [Advantages of Selenium WebDriver](#advantages-of-selenium-webdriver)
+    - [Disadvantages of Selenium WebDriver](#disadvantages-of-selenium-webdriver)
+    - [Limitations of Selenium](#limitations-of-selenium)
   - [5.2 - Historical Debt](#52---historical-debt)
   - [5.3 - Test Coverage](#53---test-coverage)
   - [5.4 - Possible Improvements](#54---possible-improvements)
@@ -437,6 +441,36 @@ The wide range of tools and extensions under the Selenium Project allows people 
 
 # **5 - Technical Debt**
 ## 5.1 - Code Quality
+
+### Advantages of Selenium WebDriver
+- It is open-source, supports many languages, and is compatible with many operating systems.
+- Selenium WebDriver architecture is designed to support cross-browser testing and parallel testing.
+- Selenium WebDriver supports integration with various frameworks like Maven, and ANT for code compilation.
+- It also supports integration with testing frameworks like TestNG to improve automation testing and reporting.
+- Selenium can be integrated with Jenkins for CI/CD purposes.
+- Selenium has strong community support which makes troubleshooting pretty easy.
+- Selenium Architecture enables us to implement user gestures like the mouse cursor and keyboard actions like click, double click, drag, and drop, click and hold, etc.
+- With Selenium, you can write your test scripts in the language with which the web application was coded, thus speeding up test cycles.
+- Selenium does not require us to start any server before testing and provides a direct interpretation of code onto the web services.
+- The architecture of Selenium enables us to simulate advanced browser interactions like clicking the browser’s back and front buttons.
+
+### Disadvantages of Selenium WebDriver
+- Selenium does not support testing of Windows applications as it works only on web applications.
+- Selenium depends on third-party frameworks like TestNG and Cucumber for reporting, as it does not have inbuilt reporting features.
+- Selenium architecture is not prepared to handle dynamic web elements accurately, thus affecting test results.
+- Selenium does not handle frames and pop-ups efficiently.
+- Selenium does not automate captcha, barcodes, and test cases that involve fingerprints.
+- Selenium does not support the automation of video and audio elements.
+- Selenium requires knowledge of programming languages, thus making test script authoring slightly hard.
+- Test management tasks cannot be performed with Selenium, while tools like UFT/QTP support ALM integration.
+
+### Limitations of Selenium
+1. Testers would need more time to write test cases
+2. Lacks built-in reporting feature
+3. Cannot test mobile applications
+4. Limited in handling dynamic elements
+5. Limited in handling pop-up windows
+
 ## 5.2 - Historical Debt
 ## 5.3 - Test Coverage
 ## 5.4 - Possible Improvements
