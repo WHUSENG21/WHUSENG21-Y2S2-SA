@@ -2,7 +2,7 @@
 <div align="center">
 <div align="center">
   <img width="200px" src="./assets/images/Logo.png" alt="Logo.png"/>
-  <img width="190px" src="https://victorytale.com/wp-content/uploads/2020/09/689px-Selenium_Logo.png" alt="Selenium Logo"/>
+  <img width="192px" src="./assets/images/Selenium_Logo.png" alt="Selenium Logo"/>
   </div>
   <h1>Selenium</h1>
   <h3>The Selenium Browser Automation Project</h3>
