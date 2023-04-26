@@ -186,8 +186,6 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
       - [Source Code Structure](#source-code-structure)
       - [Build, Integration and Test Approach](#build-integration-and-test-approach)
       - [Release Process](#release-process)
-  - [3.4 - Deployment View](#34---deployment-view)
-  - [...](#)
 - [**4 - Perspectives Analysis**](#4---perspectives-analysis)
   - [4.1 - Performance and Scalability Perspective](#41---performance-and-scalability-perspective)
   - [4.2 - Usability Perspective](#42---usability-perspective)
@@ -415,10 +413,6 @@ The WebDriver supports two types of commands:
 #### Build, Integration and Test Approach
 #### Release Process
 ...
-
-## 3.4 - Deployment View
-
-## ...
 
 # **4 - Perspectives Analysis**
 
