@@ -7,7 +7,7 @@
   <h1>Selenium</h1>
   <h3>The Selenium Browser Automation Project</h3>
   
-  **Version 3.6**
+  **Version 3.9**
   
   **Contributors**
 
@@ -19,7 +19,7 @@
 
 2021326660027 - Akaaboune, Sifeddine
 
-Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
+Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
 
 <!-- END: HEADER -->
 
@@ -109,9 +109,36 @@ Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
       </ul>
     </td>
   </tr>
-  <tr><td>7</td><td>3.7</td><td>4/12/23</td><td></td></tr>
-  <tr><td>8</td><td>3.8</td><td>4/26/23</td><td></td></tr>
-  <tr><td>9</td><td>3.9</td><td>4/19/23</td><td></td></tr>
+  <tr>
+    <td>7</td><td>3.7</td><td>4/12/23</td>
+    <td>
+          <ul>
+        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a></li>
+        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a></li>
+        <li><a href="#4---perspectives-analysis">Pespectives Analysis</a></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>8</td><td>3.8</td><td>4/19/23</td>
+    <td>
+        <ul>
+        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a></li>
+        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a></li>
+        <li><a href="#4---perspectives-analysis">Pespectives Analysis</a></li>
+      </ul>
+   </td>
+  </tr>
+  <tr>
+    <td>9</td><td>3.9</td><td>4/26/23</td>
+    <td>
+        <ul>
+        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a></li>
+        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a></li>
+        <li><a href="#4---perspectives-analysis">Pespectives Analysis</a></li>
+      </ul>
+    </td>
+  </tr>
   <tr><td>10</td><td>4.10</td><td>5/3/23</td><td></td></tr>
   <tr><td>11</td><td>4.11</td><td>5/10/23</td><td></td></tr>
 </table>
