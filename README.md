@@ -503,6 +503,11 @@ The wide range of tools and extensions under the Selenium Project allows people 
 5. Limited in handling pop-up windows
 
 ## 5.2 - Historical Debt
+
+1. Operation System Support – Windows, Mac OS, Linux, Solaris
+
+1. Browser Support – Mozilla Firefox, Internet Explorer, Google Chrome 12.0.712.0 and above, Safari, Opera 11.5 and above, Android, iOS, HtmlUnit 2.9 and above
+
 ## 5.3 - Test Coverage
 ## 5.4 - Possible Improvements
 # **5 - Conclusion**
