@@ -29,6 +29,7 @@ Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
 
   <h1>Abstract</h1>  
   <p>This research paper is all about analysing the Software Architecture of the famous open-source project called Selenium. Also known as "The Selenium Browser Automation Project", this open-source project is an umbrella project that creates a wide set of tools, libraries, and extensions for browser automations and tests catering to different environments, domains, and platforms. This research paper would focus on the architecture of one of its known tool - the Selenium WebDriver.</p>
+  <p><b>Acknowledgments: </b>We would like to thank Peng Liang Laoshi for giving us consistent and useful feedback and guidance in the process of formulating and in completion of this Software Architecture document for the Selenium Project.</p>
 </div>
 
  <!-- END: ABSTRACT -->
@@ -308,6 +309,9 @@ Users of Selenium are individuals or teams who define the system's functionality
 1. Quality assurance teams who use Selenium to ensure software quality and functionality
 
 ## 2.2 - Stakeholder Influence
+Another way to classify the stakeholders of Selenium is to classify them by the power or influence they have to be able to change the system and by their interest in the Selenium Project.
+
+<!-- TODO: Create Power-Inrterest Grid for Selenium's Stakeholders -->
 
 
 ## 2.3 - Integrators
