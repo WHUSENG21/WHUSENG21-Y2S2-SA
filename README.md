@@ -103,8 +103,8 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
     <td>6</td><td>3.6</td><td>4/5/23</td>
     <td>
       <ul>
-        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a></li>
-        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a></li>
+        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a>,</li>
+        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a>,</li>
         <li><a href="#4---perspectives-analysis">Pespectives Analysis</a></li>
       </ul>
     </td>
@@ -113,8 +113,8 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
     <td>7</td><td>3.7</td><td>4/12/23</td>
     <td>
           <ul>
-        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a></li>
-        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a></li>
+        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a>,</li>
+        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a>,</li>
         <li><a href="#4---perspectives-analysis">Pespectives Analysis</a></li>
       </ul>
     </td>
@@ -123,8 +123,8 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
     <td>8</td><td>3.8</td><td>4/19/23</td>
     <td>
         <ul>
-        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a></li>
-        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a></li>
+        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a>,</li>
+        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a>,</li>
         <li><a href="#4---perspectives-analysis">Pespectives Analysis</a></li>
       </ul>
    </td>
@@ -133,8 +133,9 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
     <td>9</td><td>3.9</td><td>4/26/23</td>
     <td>
         <ul>
-        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a></li>
-        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a></li>
+        <li><a href="#1---introduction">Introduction (File Organisation)</a>,</li> 
+        <li><a href="#2---stakeholder-analysis">Stakeholder Analysis</a>,</li>
+        <li><a href="#3---viewpoints-analysis">Viewpoints Analysis</a>,</li>
         <li><a href="#4---perspectives-analysis">Pespectives Analysis</a></li>
       </ul>
     </td>
