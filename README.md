@@ -311,6 +311,12 @@ Users of Selenium are individuals or teams who define the system's functionality
 ## 2.2 - Stakeholder Influence
 Another way to classify the stakeholders of Selenium is to classify them by the power or influence they have to be able to change the system and by their interest in the Selenium Project.
 
+1. Official Selenium Members
+2. Selenium Community
+3. Developers Community
+4. 
+
+
 <!-- TODO: Create Power-Inrterest Grid for Selenium's Stakeholders -->
 
 
