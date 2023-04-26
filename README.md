@@ -140,6 +140,7 @@ Instructor and Lecturer 梁鹏老师 Peng Liang Laoshi
     - [2.1.9 - System Administrators](#219---system-administrators)
     - [2.1.10 - Testers](#2110---testers)
     - [2.1.11 - Users](#2111---users)
+    - [2.1.12 - Competitors](#2112---competitors)
   - [2.2 - Stakeholder Influence](#22---stakeholder-influence)
   - [2.3 - Integrators](#23---integrators)
 - [**3 - Viewpoints Analysis**](#3---viewpoints-analysis)
@@ -307,6 +308,21 @@ Users of Selenium are individuals or teams who define the system's functionality
 1. Software developers who use Selenium to test web applications
 1. Automation engineers who use Selenium to create automated test scripts
 1. Quality assurance teams who use Selenium to ensure software quality and functionality
+
+### 2.1.12 - Competitors
+*Aim to put a similar or better competing system on the market.*
+
+Competitors of Selenium are individuals or teams who aim to put a similar or better competing system to Selenium on the market. These stakeholders aim to develop a better system themselves to gain a competitive advantage over Selenium in the same automated testing tools market. 
+
+Stakeholders which are categorised as competitors to Selenium include:
+1. testRigor
+2. Rapise 
+3. Katalon Platform
+4. Virtuoso
+5. Subject7
+6. Testim
+7. etc.
+
 
 ## 2.2 - Stakeholder Influence
 Another way to classify the stakeholders of Selenium is to classify them by the power or influence they have to be able to change the system and by their interest in the Selenium Project.
