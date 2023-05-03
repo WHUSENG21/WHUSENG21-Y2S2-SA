@@ -195,14 +195,6 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
 - [**4 - Perspectives Analysis**](#4---perspectives-analysis)
   - [4.1 - Performance and Scalability Perspective](#41---performance-and-scalability-perspective)
   - [4.2 - Usability Perspective](#42---usability-perspective)
-- [**5 - Technical Debt**](#5---technical-debt)
-  - [5.1 - Code Quality](#51---code-quality)
-    - [Advantages of Selenium WebDriver](#advantages-of-selenium-webdriver)
-    - [Disadvantages of Selenium WebDriver](#disadvantages-of-selenium-webdriver)
-    - [Limitations of Selenium](#limitations-of-selenium)
-  - [5.2 - Historical Debt](#52---historical-debt)
-  - [5.3 - Test Coverage](#53---test-coverage)
-  - [5.4 - Possible Improvements](#54---possible-improvements)
 - [**5 - Conclusion**](#5---conclusion)
 - [References](#references)
 
@@ -470,7 +462,7 @@ Selenium is modifiable because you can assign different software tests using dif
 The wide range of tools and extensions under the Selenium Project allows people to create automated tests under one architecture, making automated tests reusable and easier to do by following the same architecture with provided support for different programming languages, and tools and extensions catering to different environments and platforms, lesser worry of domain-related issues to conduct automated testings and synchronisation for test driven developments.
 
 
-# **5 - Technical Debt**
+<!-- # **5 - Technical Debt**
 ## 5.1 - Code Quality
 
 ### Advantages of Selenium WebDriver
@@ -510,6 +502,7 @@ The wide range of tools and extensions under the Selenium Project allows people 
 
 ## 5.3 - Test Coverage
 ## 5.4 - Possible Improvements
+-->
 # **5 - Conclusion**
 
 # References
