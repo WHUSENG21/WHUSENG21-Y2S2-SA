@@ -1,12 +1,15 @@
-﻿
-
-|![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.001.png)|![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.002.png)|
-| -: | :- |
-# <a name="_sryk0a8bvehz"></a>**Selenium**
-### <a name="_xqjvb2rfxogu"></a>**The Selenium Browser Automation Project**
-**Version 4.12**
-
-**Contributors**
+﻿<!-- START: HEADER -->
+<div align="center">
+<div align="center">
+  <img width="200px" src="./assets/images/Logo.png" alt="Logo.png"/>
+  <img width="192px" src="./assets/images/Selenium_Logo.png" alt="Selenium Logo"/>
+  </div>
+  <h1>Selenium</h1>
+  <h3>The Selenium Browser Automation Project</h3>
+  
+  **Version 4.12**
+  
+  **Contributors**
 
 2021326660029 - Alba, Nelson Jr.
 
@@ -19,30 +22,24 @@
 Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
 
 **2023 May 17**
-# <a name="_nrzcyahpe7wj"></a>**Abstract**
+
+<!-- END: HEADER -->
+
+---
+
+<!-- START: ABSTRACT -->
+<h1>Abstract</h1>  
 This research paper is all about analysing the Software Architecture of the famous open-source project called Selenium. Also known as "The Selenium Browser Automation Project", this open-source project is an umbrella project that creates a wide set of tools, libraries, and extensions for browser automations and tests catering to different environments, domains, and platforms. This research paper would focus on the architecture of one of its known tools - the Selenium WebDriver.
 
 **Acknowledgments:** We would like to thank Peng Liang Laoshi for giving us consistent and useful feedback and guidance in the process of formulating and in completion of this Software Architecture document for the Selenium Project.
+</div>
+ <!-- END: ABSTRACT -->
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# <a name="_86taw719xv77"></a>**Revision Log**
+<!-- START: REVISION LOG -->
+<div align="center">
+  <h1>Revision Log</h1>  
 
 |**#**|**Version**|**Date**|**Logs**|
 | :-: | :-: | :-: | :-: |
@@ -59,60 +56,80 @@ This research paper is all about analysing the Software Architecture of the famo
 |11|4\.11|<p>5/10/23</p><p></p>|<p>- Introduction</p><p>- Stakeholders Analysis</p><p>- Viewpoints Analysis</p><p>- Perspectives Analysis</p><p>- Conclusion</p>|
 |12|4\.12|5/17/23|<p>- Introduction</p><p>- Stakeholders Analysis</p><p>- Viewpoints Analysis</p><p>- Perspectives Analysis</p><p>- Conclusion</p>|
 
+</div>
+<!-- END: REVISION LOG -->
+
+---
+
+<!-- START: TABLE OF CONTENTS -->
+
+# Table of Contents
+
+<details open align="left">
+  <summary><b>Table of Contents</b></summary>
+
+- [Table of Contents](#table-of-contents)
+- [**List of Tables and Figures**](#list-of-tables-and-figures)
+  - [**List of Tables**](#list-of-tables)
+  - [**List of Figures**](#list-of-figures)
+- [**1 - Introduction**](#1---introduction)
+  - [**1.1 - Description**](#11---description)
+  - [**1.2 - File Organisation**](#12---file-organisation)
+- [**2 - Stakeholder Analysis**](#2---stakeholder-analysis)
+  - [**2.1 - Stakeholders by Category**](#21---stakeholders-by-category)
+    - [**2.1.1 - Acquirers**](#211---acquirers)
+    - [**2.1.2 - Assessors**](#212---assessors)
+    - [**2.1.3 - Communicators**](#213---communicators)
+    - [**2.1.4 - Developers**](#214---developers)
+    - [**2.1.5 - Maintainers**](#215---maintainers)
+    - [**2.1.6 - Production Engineers**](#216---production-engineers)
+    - [**2.1.7 - Suppliers**](#217---suppliers)
+    - [**2.1.8 - Support Staff**](#218---support-staff)
+    - [**2.1.9 - System Administrators**](#219---system-administrators)
+    - [**2.1.10 - Testers**](#2110---testers)
+    - [**2.1.11 - Users**](#2111---users)
+    - [**2.1.12 - Competitors**](#2112---competitors)
+  - [**2.2 - Stakeholder Influence**](#22---stakeholder-influence)
+  - [**2.3 - Requirements Analysis**](#23---requirements-analysis)
+    - [**2.3.1 - Functional Requirements**](#231---functional-requirements)
+    - [**2.3.2 - Key Quality Attributes (Non-Functional Requirements)**](#232---key-quality-attributes-non-functional-requirements)
+- [**3 - Viewpoints Analysis**](#3---viewpoints-analysis)
+  - [**3.1 - Context View**](#31---context-view)
+    - [**3.1.1 - System Scope**](#311---system-scope)
+    - [**3.1.2 - External Entities Involved**](#312---external-entities-involved)
+    - [**3.1.3 - Context View Model**](#313---context-view-model)
+  - [**3.2 - Functional View**](#32---functional-view)
+    - [**3.2.1 - Capabilities**](#321---capabilities)
+    - [**3.2.2 - Interfaces and Structure**](#322---interfaces-and-structure)
+  - [**3.3 - Development View**](#33---development-view)
+    - [**3.3.1 - Module Structure**](#331---module-structure)
+      - [**Major Architectural Components**](#major-architectural-components)
+      - [**Source Code Structure**](#source-code-structure)
+    - [**3.3.2 - Codeline Model**](#332---codeline-model)
+      - [**Common Design**](#common-design)
+        - [**Focus on the User**](#focus-on-the-user)
+        - [**Use a “Best Fit” Language**](#use-a-best-fit-language)
+        - [**Layered Design**](#layered-design)
+      - [](#)
+      - [**Reducing Cost of Change**](#reducing-cost-of-change)
+      - [**Release Process**](#release-process)
+    - [**3.3.3 - Design Patterns and Development Strategies**](#333---design-patterns-and-development-strategies)
+- [**4 - Perspectives Analysis**](#4---perspectives-analysis)
+  - [**4.1 - Performance and Scalability Perspective**](#41---performance-and-scalability-perspective)
+  - [**4.2 - Reusability Perspective**](#42---reusability-perspective)
+  - [**4.3 - Compatibility Perspective**](#43---compatibility-perspective)
+  - [**4.4 - Simplicity Perspective**](#44---simplicity-perspective)
+- [**5 - Conclusion**](#5---conclusion)
+- [**References**](#references)
+  - [**General Resources for Research**](#general-resources-for-research)
+  - [**Specific Resources for Research**](#specific-resources-for-research)
+  - [**Pegs / Exemplars**](#pegs--exemplars)
 
 
+</details>
+<!-- END: TABLE OF CONTENTS -->
 
-
-# <a name="_ddm6jy1wzpn5"></a>**Table of Contents**
-- [**1 - Introduction**](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#1---introduction)
-  - [1.1 - Description](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#11---description)
-  - [1.2 - File Organisation](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#12---file-organisation)
-- [**2 - Stakeholder Analysis**](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#2---stakeholder-analysis)
-  - [2.1 - Stakeholders by Category](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#21---stakeholders-by-category)
-    - [2.1.1 - Acquirers](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#211---acquirers)
-    - [2.1.2 - Assessors](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#212---assessors)
-    - [2.1.3 - Communicators](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#213---communicators)
-    - [2.1.4 - Developers](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#214---developers)
-    - [2.1.5 - Maintainers](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#215---maintainers)
-    - [2.1.6 - Production Engineers](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#216---production-engineers)
-    - [2.1.7 - Suppliers](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#217---suppliers)
-    - [2.1.8 - Support Staff](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#218---support-staff)
-    - [2.1.9 - System Administrators](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#219---system-administrators)
-    - [2.1.10 - Testers](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#2110---testers)
-    - [2.1.11 - Users](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#2111---users)
-    - [2.1.12 - Competitors](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#2112---competitors)
-  - [2.2 - Stakeholder Influence](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#22---stakeholder-influence)
-  - [2.3 - Integrators](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#23---integrators)
-  - 2.4 - Requirements Analysis
-- [**3 - Viewpoints Analysis**](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#3---viewpoints-analysis)
-  - [3.1 - Context View](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#31---context-view)
-    - [3.1.1 - System Scope](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#311---system-scope)
-    - [3.1.2 - External Entities Involved](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#312---external-entities-involved)
-    - [3.1.3 - Context View Explanation](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#313---context-view-explanation)
-  - [3.2 - Functional View](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#32---functional-view)
-    - [3.2.1 - Capabilities](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#321---capabilities)
-    - [3.2.2 - Interfaces and Structure](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#322---interfaces-and-structure)
-  - [3.3 - Development View](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#33---development-view)
-    - [3.3.1 - Module Structure](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#331---module-structure)
-    - [3.3.2 - Module Dependencies](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#332---module-dependencies)
-    - [3.2.](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#324---codeline)[3](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#324---codeline)[ - Codeline](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#324---codeline)
-      - [Source Code Structure](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#source-code-structure)
-      - [Build, Integration and Test Approach](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#build-integration-and-test-approach)
-      - [Release Process](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#release-process)
-- [**4 - Perspectives Analysis**](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#4---perspectives-analysis)
-  - [4.1 - Performance and Scalability Perspective](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#41---performance-and-scalability-perspective)
-  - [4.2 - Usability Perspective](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#42---usability-perspective)
-- [**5 - Conclusion](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#5---conclusion)**
-
-- [**References**](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#references)
-
-
-
-
-
-
-
-
+---
 
 # <a name="_u9gkeum5l1z3"></a>**List of Tables and Figures**
 ## <a name="_sid7rvw4kzp3"></a>**List of Tables**
@@ -131,13 +148,9 @@ This research paper is all about analysing the Software Architecture of the famo
 |1|2\.2|Figure 2.2.1|Selenium Stakeholder Analysis: Power-Interest Grid.|
 |||||
 
+---
 
-
-
-
-
-
-
+<!-- START: MAIN CONTENT -->
 # <a name="_808k3p6uwfld"></a>**1 - Introduction**
 ## <a name="_6l1061z4lx79"></a>**1.1 - Description**
 Selenium is an open-source project that allows automated testing of web applications across various browsers and platforms. It provides a suite of tools for automating web browsers, including a browser automation framework, a WebDriver API, and a language-specific client library. With Selenium, developers and testers can write scripts to simulate user interactions with a website, such as clicking buttons, filling out forms, and navigating through pages. Selenium supports multiple programming languages, including Java, Python, and JavaScript, making it easy to integrate with existing testing frameworks. It is widely used in the industry for testing web applications, ensuring they work as expected across different browsers and operating systems. Additionally, Selenium is highly extensible, enabling developers to create custom plugins and integrations to extend its capabilities.
@@ -744,4 +757,4 @@ Selenium is a powerful and popular open-source tool for automating web browsers.
 
 - <https://www.selenium.dev/documentation/test_practices/design_strategies/>
 
-Page  of 50
+<!-- END: MAIN CONTENT -->
