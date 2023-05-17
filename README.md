@@ -42,6 +42,11 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
 <!-- START: REVISION LOG -->
   <h1>Revision Log</h1>  
 
+<details open align="left">
+  <summary><b>Revision Log</b></summary>
+
+<div align="center">
+
 |**#**|**Version**|**Date**|**Logs**|
 | :-: | :-: | :-: | :-: |
 |1|1\.1|3/1/23|<p>- [Description](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#1---introduction),</p><p>- [Business Context](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#1---introduction),</p><p>- [Key Quality Concerns](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#1---introduction)</p>|
@@ -57,6 +62,8 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
 |11|4\.12|5/10/23|<p>- [Introduction](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#1---introduction),</p><p>- [Stakeholders Analysis](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#2---stakeholder-analysis),</p><p>- [Viewpoints Analysis](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#3---viewpoints-analysis),</p><p>- [Perspectives](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#4---perspectives-analysis)[ Analysis](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#4---perspectives-analysis),</p><p>- [Conclusion](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#5---conclusion)</p>|
 |12|4\.12|5/17/23|<p>- [Introduction](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#1---introduction),</p><p>- [Stakeholders Analysis](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#2---stakeholder-analysis),</p><p>- [Viewpoints Analysis](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#3---viewpoints-analysis),</p><p>- [Perspectives](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#4---perspectives-analysis)[ Analysis](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#4---perspectives-analysis),</p><p>- [Conclusion](https://github.com/WHUSENG21/WHUSENG21-Y2S2-SA#5---conclusion)</p>|
 
+</div>
+</div>
 <!-- END: REVISION LOG -->
 
 ---
