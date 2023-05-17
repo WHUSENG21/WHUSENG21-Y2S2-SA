@@ -1,6 +1,6 @@
 ﻿
 
-|![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.001.png)|![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.002.png)|
+|![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.001.png)|![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.002.png)|
 | -: | :- |
 # <a name="_sryk0a8bvehz"></a>**Selenium**
 ### <a name="_xqjvb2rfxogu"></a>**The Selenium Browser Automation Project**
@@ -294,7 +294,7 @@ Stakeholders which are categorised as competitors to Selenium include:
 ## <a name="_cvynv9xkd1i3"></a>**2.2 - Stakeholder Influence**
 Another way to classify the stakeholders of Selenium is to classify them by the power or influence they have to be able to change the system and by their interest in the Selenium Project.
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.003.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.003.png)
 
 **Figure 2.2.1** - Selenium Stakeholder Analysis: Power-Interest Grid
 
@@ -363,20 +363,20 @@ The communication way of selenium can be categorised into two types: Direct comm
 
 **Direct Communication**
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.004.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.004.png)
 
 **Remote Communication**
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.005.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.005.png)
 
 **Remote Communication Using Selenium Server or Grid**
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.006.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.006.png)
 
 ### <a name="_ej27q4vyngv5"></a>**3.1.2 - External Entities Involved**
 In terms of the relationship between developers and Selenium, Selenium has role that is to test the framework of developers by using WebDriver. A test framework that is compatible with the language bindings is a bare minimum requirement for developers; examples include NUnit for.NET, JUnit for Java, RSpec for Ruby, etc. Their WebDriver and related actions in their tests should be run and executed by the test framework.
 ### <a name="_2timqs73c0fp"></a>**3.1.3 - Context View Model**
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.007.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.007.png)
 
 - **Selenium:** Selenium is an open-source software testing framework that is primarily used for automating web applications. It provides a suite of tools for testing web applications across different browsers and platforms. It is currently licensed under Apache License 2.0.
 - **Programming languages:** Selenium is implemented in multiple programming languages, including Java, Python, C#, and JavaScript. The Selenium WebDriver API is available for several popular web browsers, including Chrome, Firefox, Safari, and Edge.
@@ -387,7 +387,7 @@ In terms of the relationship between developers and Selenium, Selenium has role 
 ## <a name="_fm3xwp28ja9p"></a>**3.2 - Functional View**
 The functional viewpoint of Selenium can be divided into three main components:
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.008.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.008.png)
 ### <a name="_2shveylcsd4l"></a>**3.2.1 - Capabilities**
 1. **Selenium WebDriver**: This is the core component of Selenium. It is responsible for controlling the web browser and sending commands to it. WebDriver supports several different web browsers and allows testers to create automated tests for different web applications.
 1. **Selenium IDE**: This is a graphical user interface that allows testers to record and replay their test scripts. It also provides advanced scripting capabilities, allowing testers to create more complex tests.
@@ -419,7 +419,7 @@ Functional use of all 3 Selenium components and how they are used in relation to
 
 Here is an image of the Selenium IDE:
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.009.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.009.png)
 
 Fig source:   Rungta, Krishna. “Selenium Ide Tutorial.” *Guru99*, 15 Apr. 2023, https://www.guru99.com/introduction-selenuim-ide.html. 
 
@@ -484,7 +484,7 @@ The WebDrive provides many more functions such as driver.findElements() which al
 
 Here is an overview diagram of the Selenium Grid architecture:
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.010.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.010.png)
 
 Fig source: Rungta, Krishna. “Selenium Grid Tutorial: Setup a Hub and Node (Example).” *Guru99*, 18 Mar. 2023, https://www.guru99.com/introduction-to-selenium-grid.html. 
 
@@ -508,13 +508,13 @@ Fig source: Rungta, Krishna. “Selenium Grid Tutorial: Setup a Hub and Node (Ex
 
 Selenium provides the jar file for the server setup on their website. When launching the file on a console and starting up the hub it will look like this:
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.011.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.011.png)
 
 Fig source: Rungta, Krishna. “Selenium Grid Tutorial: Setup a Hub and Node (Example).” *Guru99*, 18 Mar. 2023, https://www.guru99.com/introduction-to-selenium-grid.html. 
 
 To set up a node we can type this in the console of a different machine that isn’t running the hub:
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.012.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.012.png)
 
 Fig source: Rungta, Krishna. “Selenium Grid Tutorial: Setup a Hub and Node (Example).” *Guru99*, 18 Mar. 2023, https://www.guru99.com/introduction-to-selenium-grid.html. 
 
@@ -525,15 +525,15 @@ The Selenium Grid can also run scripts written using WebDrive, in order to desig
 
 To use the **DesiredCapabilites** object, you must first import this package
 
-![Selenium Grid Tutorial: Step by Step Guide with Example](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.013.png)
+![Selenium Grid Tutorial: Step by Step Guide with Example](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.013.png)
 
 To use the **RemoteWebDriver** object, you must import these packages.
 
-![Selenium Grid Tutorial: Step by Step Guide with Example](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.014.png)
+![Selenium Grid Tutorial: Step by Step Guide with Example](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.014.png)
 
 **Relational structure diagram of all components**
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.015.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.015.png)
 ## <a name="_7drdfjr7uqe3"></a>**3.3 - Development View**
 This section discusses the development viewpoint of Selenium by outlining the modular structure, codeline standards, and common design models of Selenium Web Driver.
 
@@ -548,7 +548,7 @@ The architecture of Selenium WebDriver from a development viewpoint consists of 
 1. Browser Drivers
 1. Browsers
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.016.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.016.png)
 
 1. **Binding Language Client Libraries:** Binding language client libraries developed by Selenium developers to provide compatibility for multiple support with supported programming languages.
 1. **JSON Wire Protocol Over HTTP Client:** JSON is used as an open standard to provide a transport mechanism for transferring data between the client and the server on the web.  This serves as the REST API to exchange information between HTTP Servers.
@@ -556,17 +556,17 @@ The architecture of Selenium WebDriver from a development viewpoint consists of 
 1. **Browsers:** Browser Clients that can be used for testing different browser automated tests by Selenium.
 
 #### <a name="_sfejacpkem61"></a>**Source Code Structure**
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.017.png)![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.018.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.017.png)![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.018.png)
 
 In terms of the structure of their source code, to cater to multiple languages and browser drivers support, along with each of their own specific requirements, their source code in exchange becomes more complex, making it harder to maintain, and making development tedious.
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.019.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.019.png)
 
 Fortunately, instead of having to build each of their selenium binding language client libraries, they make use of Rake, a well known ruby build tool used for building. Rake compiles a bundled JRuby jar invoked through their “go” wrapper to include all dependencies without the need for extra setup.
 
 `	`At the moment, Selenium is in the process of migrating to a new build system with bazel, however the full migration is not yet complete. Due to this, the new implementation of using bazel as the new build tool has not really been integrated with the existing rake-based solution they still use, and that occasionally need to also issue bazel commands directly to build the project.
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.020.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.020.png)
 
 ### <a name="_ic81dabhjhrm"></a>**3.3.2 - Codeline Model**
 The codeline model describes the organisation of Selenium’s codeline. In this section, we will discuss and analyse the structure, code control, different types of code, how the code is maintained, and which automated tools are used for building, deploying, testing, and releasing.
@@ -577,40 +577,38 @@ The code on Github can be automatically built and tested through continuous inte
 
 To deploy React’s code, one must be 
 
-**Common Design**
-
-1. Starting a session
-1. Taking action on browser
-1. Requesting for a browser’s information
-1. Establishing a waiting strategy
-1. Finding an element
-1. Taking action on an element
-1. Requesting for an element’s information
-1. Ending the session
-
-Focus on the User
-
+#### <a name="_ovxybqo1z1m7"></a>**Common Design**
+##### <a name="_u2eexkg6js50"></a>**Focus on the User**
 - The WebDriver Apis are focused on driving the browser from the user’s point of view. For this reason, you won’t find methods such as “fireEvent”, and this is why “getText” attempts to return the text as a user would see it. This is also why it’s important that installation of webdriver be as simple as possible.
 
-Use a “Best Fit” Language
+##### <a name="_akdy4vmqmpvu"></a>**Use a “Best Fit” Language**
+The key idea behind the various implementations of WebDriver is that each browser has a language that is most natural to use when attempting to drive it. All of the drivers are built with the idea that as much as possible should be done in ths “best fit” language, while the implementation that user sees is a thin wrapper around this. This may be represented as:
 
-The key idea behind the various implementations of WebDriver is that each browser has a language that is most natural to use when attempting to drive it. All of the drivers are built with the idea that as much as possible should be done in ths”b
+|Browser|“Best Fit” Language|
+| :- | :- |
+|Firefox|Javascript in an XPCOM component|
+|Internet Explorer|C++ mainly using the IE Automation APIs, but occasionally using other features of Windows|
 
-Layered Design
+In addition, some of the languages that WebDriver is offered in (notably Java) have something that supports simulating a browser. These are generally modeled using composition.
 
-Reducing Cost of Change
+##### <a name="_2veimow7q9vl"></a>**Layered Design**
+#### ![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.021.png)
+<a name="_s5duyqslyj6y"></a>Selenium’s WebDriver must not make the user learn all the different implementation languages. In order for the user’s to have ease in writing tests and maintaining them, as much logic as possible needs to be done in the “best fit” language of the browser. Naturally, this would lead to designing the API presented to the user in a thin wrapper around the core of each driver.
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.021.png)
+One obvious benefit to this design is that writing a language binding for WebDriver becomes a matter of bridging to the "best fit" language. Another benefit is that it becomes very easy to work on a single driver, given you understand the "best fit" language. For example, it's possible to work on the FirefoxDriver completely independently of the InternetExplorerDriver. Better, once a feature in a driver is working in one binding language (for example, Java), it should be easy to add that support to other binding languages.
 
-#### ![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.022.png)
+#### <a name="_jjne5dmwdatu"></a>**Reducing Cost of Change**
 
+As even a cursory read of the architectural documents suggest, there are multiple, largely independent implementations of webdriver, as well as the original Selenium 1.x implementation, The goal for reducing the cost of change on the project is to share as much code as possible. Fortunately, a lot of the tasks we want to perform are "read only", querying the current state of the DOM. it makes sense to write these shared functions in Javascript.
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.023.png)
+In order to do this, we are working on AutomationAtoms (atoms). These take the form of a Javascript library that makes use of Google'sClosure. There are two use cases for the atoms:
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.024.png)
-####
-####
-#### <a name="_tz1dymvgv3sd"></a><a name="_vxyr10fs9khd"></a><a name="_b23vrfxbcead"></a><a name="_shr8owsl4ir1"></a>**Release Process**
+1\. A "monolithic driver", such as Selenium 1.x or the Firefox driver, where the bulk of the driver is written in JS.
+
+2\. Augmenting an existing driver written in another language (eg: the internetExplorerDriver), where we want to use tiny fraaments of highlycompressed JS in order to reduce execution and parsing time.
+
+Closure comes with the Closure compiler which allows us to take a Javascript library and compile it to minimized and optimized Javascript, as offering the ability to generate an unoptimized version. We shall be making use of this capability to support both use cases.
+#### <a name="_shr8owsl4ir1"></a>**Release Process**
 In the Selenium project, we can define two types of releases that can be made:
 
 - Patch Releases
@@ -634,11 +632,6 @@ As projects progress, they usually accumulate a significant number of tests. How
 # <a name="_td5ejb529bz5"></a>**4 - Perspectives Analysis**
 Selenium's architecture as a whole has a lot of benefits catering to the needs of their different stakeholders. The first benefit is that their architecture will inhibit or enable a system’s driving quality attributes. Another benefit of their architecture is that their architecture can be created as a transferable, reusable model that forms the heart of a product line. Selenium’s architecture as an umbrella project to develop a wide range of tools and extensions for browser automation for testing purposes allows Selenium to be very modifiable, reusable, and scalable.
 ## <a name="_vbdxd4p1qwn7"></a>**4.1 - Performance and Scalability Perspective**
-With the amount of different tools and extensions to use, as well as being able to use them in a wide range of programming languages, Selenium proves to be scalable as you can widely use selenium’s tools and extensions in different situations, and easily modify and reuse automated tests in different environments. With having one architecture with a wide range of applications, development of applications could become scalable without having the need to go for other alternatives for doing automated testing in different environments or platforms.
-
-Another benefit to note is that their documented architecture enhances communication among stakeholders. Selenium provides document pages for different interactions between the components and the browser such as, direct-communication, remote communication through RemoteWebDriver, and Remote communication through Selenium Grid.
-
-Lastly, their architecture can provide the basis for evolutionary prototyping. Initially, they were developed as a solution in the form of a program using Javascript to address shortcomings of manual testing back in 2004, the creator of Selenium Jason Huggins realised the idea of the testing program could do much more and called their program from JavaScript TestRunner to Selenium Core and made it open-sourced. Their program turned into a big project with the goal to make automating of testing easier by overcoming domain-related issues by creating different tools and extensions and expanding from JavaScript to be able to be used also in different programming languages, making it more usable and wider in application and use by people. There is clear evolution in improving further their architecture as they develop and advance along the tools they develop, benefiting and increasing possibilities and usabilities for their different tools, extensions, and libraries undertaking the same architecture principles they have designed. With a clear sign of will to continue to evolve and develop to better cater for their stakeholders and their needs, Selenium's architecture keeps developing to the future on.
 
 - Selenium's architecture is scalable due to its wide range of tools and extensions in different programming languages, which allows for easy modification and reuse of automated tests in various environments.
 - The use of Selenium's tools and extensions can improve the performance of automated testing by providing developers with a range of options to optimize their testing processes.
@@ -647,10 +640,6 @@ Lastly, their architecture can provide the basis for evolutionary prototyping. I
 
 
 ## <a name="_fyirrsl6hiih"></a>**4.2 - Reusability Perspective**
-Selenium is modifiable because you can assign different software tests using different tools or extensions, as well as different programming languages to conduct automated tests in different environments.
-
-The wide range of tools and extensions under the Selenium Project allows people to create automated tests under one architecture, making automated tests reusable and easier to do by following the same architecture with provided support for different programming languages, and tools and extensions catering to different environments and platforms, lesser worry of domain-related issues to conduct automated testings and synchronisation for test driven developments.
-
 - Modifiability: Assigning different software tests using different tools/extensions and programming languages for automated testing in different environments
 - Wide range of tools/extensions under Selenium Project:
   - One architecture for automated testing
@@ -673,7 +662,7 @@ Selenium supports multiple programming languages, including Java, Python, Ruby, 
 
 Alongside supporting multiple programming languages, Selenium also supports multiple browsers, including Chrome, Firefox, Safari, Edge, and Internet Explorer. This means that developers can test their web applications in multiple browsers and ensure that their applications are compatible with various browsers. This creates confidence for developers and testers and ensures that end-users can access the application on their preferred browser. Browser-specific drivers are included in Selenium WebDriver for popular web browsers, ensuring tests can be run consistently across different browsers. On the basis of this, the Selenium WebDriver is also designed to work across different operating systems, allowing tests to be run on various environments to ensure compatibility.
 
-![](Aspose.Words.450cef74-37d5-4939-a9b0-ec4cc99712f8.025.png)
+![](Aspose.Words.2401b332-7a70-4214-a14a-f7ce88cb14fd.022.png)
 
 Note: The Opera driver no longer works with the latest functionality of Selenium and is currently officially unsupported.
 
@@ -683,9 +672,6 @@ The Selenium WebDriver is designed to maintain compatibility with previous versi
 
 
 ## <a name="_11afxva59fil"></a>**4.4 - Simplicity Perspective**
-Simplicity is a key quality attribute for the Selenium project, ensuring ease of use and maintainability of the architecture. To achieve simplicity, the Selenium project architecture includes several key components and design considerations.
-
-The WebDriver API is designed to be simple and easy to use, providing a clear and consistent interface for interacting with web browsers. The minimalistic design of the Selenium project architecture reduces the learning curve for new developers and testers, making it easier to understand and maintain the codebase. Abstraction is a key design principle in the Selenium project architecture, abstracting away the complexities of interacting with web browsers and providing a simple and consistent interface. The modular architecture of the Selenium project enables developers to use only the components they need, making it easier to understand and modify the codebase.
 
 Simplicity is a key quality attribute for the Selenium project, ensuring ease of use and maintainability of the architecture. To achieve simplicity, the Selenium project architecture includes several key components and design considerations.
 
