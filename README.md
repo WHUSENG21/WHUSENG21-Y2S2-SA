@@ -212,21 +212,26 @@ Selenium is an open-source project that allows automated testing of web applicat
 
 The Selenium Project is formed by a community of users and open source contributors who develop, use and promote the different Selenium projects (IDE, Grid, WebDriver) and other related things, with the end goal of benefiting the community as a whole. The Selenium Project wants as much as possible to operate using procedures that are fair, open, inviting, and ultimately good for the community. Selenium is primarily used for but not limited to automated testing of web applications. It helps developers and testers quickly identify and fix issues with applications, ensuring that they work as expected across different browsers (Firefox, Microsoft Edge, Chrome, etc) and platforms.
 
-Their key quality concerns are: 
+Their key quality concerns are:
+<ol>
+  <li><b>Test Stability:</b> Selenium tests must be reliable and consistent, producing the same results each time they are run.</li>
+  <li><b>Test Coverage:</b> Selenium tests should cover all essential features and functionalities of the application under test.</li>
+  <li><b>Test Maintainability:</b> Selenium tests should be easy to maintain, update, and modify when the application changes.</li>
+  <li><b>Test Performance:</b> Selenium tests must be efficient and not overly burden the system, as this can cause false test results.</li>
+  <li><b>Test Scalability:</b> Selenium tests should be able to handle a large number of test cases and execute them quickly.</li>
+</ol>
 
-1. <b>Test Stability:</b> Selenium tests must be reliable and consistent, producing the same results each time they are run.
-2. <b>Test Coverage:</b> Selenium tests should cover all essential features and functionalities of the application under test.
-3. <b>Test Maintainability:</b> Selenium tests should be easy to maintain, update, and modify when the application changes.
-4. <b>Test Performance:</b> Selenium tests must be efficient and not overly burden the system, as this can cause false test results.
-5. <b>Test Scalability:</b> Selenium tests should be able to handle a large number of test cases and execute them quickly.
 
 ## 1.2 - File Organisation
 This document is organised in the following manner:
 
-1. "Chapter 2: Stakeholder Analysis" focuses on looking outward in terms of the usage of the system by having an explicit stakeholder analysis based on available online documentations, as well as the activity on their open-source Github repository.
-1. "Chapter 3: Viewpoints Analysis" discusses the context and development viewpoints of Selenium by analysing the context in which Selenium operates, as well as discussing the development viewpoint of Selenium where we will discuss and analyse the different modules, layers, components, and dependencies of which Selenium is developed with.
-1. "Chapter 4: Perspectives Analysis" shows an analysis on other aspects that concerns the system to further talk about Selenium's architecture, such as performance, scalability, and usabilty perspectives.
-1. "Chapter 5: Technical Debt" analyses the vunerabilities of the system, as well as attempt to propose solutions and suggestions to resolving these technical debts where feasible and possible.
+<ol>
+  <li><b>"Chapter 2: Stakeholder Analysis"</b> focuses on looking outward in terms of the usage of the system by having an explicit stakeholder analysis based on available online documentations, as well as the activity on their open-source Github repository.</li>
+  <li><b>"Chapter 3: Viewpoints Analysis"</b> discusses the context, functional, development viewpoints of Selenium by analysing the context in which Selenium operates, the architectural elements of Selenium that delivers its functions at runtime, as well as outlining the module structure, codeline standards, and common design models of Selenium’s Web Driver.</li>
+  <li><b>"Chapter 4: Perspectives Analysis"</b> shows an analysis on other aspects that concerns the system to further talk about Selenium's architecture, such as performance, scalability, and usability perspectives.</li>
+
+</ol>
+
 
 ---
 
