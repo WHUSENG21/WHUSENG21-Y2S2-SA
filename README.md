@@ -120,9 +120,6 @@ Instructor and Lecturer - 梁鹏老师 Peng Liang Laoshi
   - [**4.4 - Simplicity Perspective**](#44---simplicity-perspective)
 - [**5 - Conclusion**](#5---conclusion)
 - [**References**](#references)
-  - [**General Resources for Research**](#general-resources-for-research)
-  - [**Specific Resources for Research**](#specific-resources-for-research)
-  - [**Pegs / Exemplars**](#pegs--exemplars)
 
 
 </details>
@@ -788,31 +785,18 @@ Selenium is a powerful and popular open-source tool for automating web browsers.
 
 
 # <a name="_qn8o4mk4sxad"></a>**References**
-## <a name="_j3i1zwynmqe9"></a>**General Resources for Research**
-- **Official Selenium Documentation**
-  - <https://github.com/seleniumhq/selenium>
-  - <https://www.selenium.dev>
-  - <https://www.selenium.dev/documentation/webdriver/>
-- **Useful Resources on Selenium Web Driver’s Architecture**
-  - <https://www.interviewbit.com/blog/selenium-architecture/>
-  - <https://artoftesting.com/selenium-webdriver-architecture>
-  - <https://intellipaat.com/blog/selenium-architecture/#no5>
-  - <https://www.softwaretestingmaterial.com/selenium-webdriver-architecture/>
-## <a name="_8stgbsm2wv47"></a>**Specific Resources for Research**
-- ### <a name="_pgq2u1apucqc"></a>**Stakeholder Analysis**
-  - How to do stakeholder analysis:
-    - <https://www.mindtools.com/aol0rms/stakeholder-analysis>
-    - <https://www.forbes.com/advisor/business/what-is-stakeholder-analysis/>
-  - Selenium’s Competitors:
-    - <https://www.guru99.com/selenium-alternatives.html>
-  - Selenium’s Contributors:
+- <https://github.com/seleniumhq/selenium>
+- <https://www.selenium.dev>
+- <https://www.selenium.dev/documentation/webdriver/>
+- <https://www.interviewbit.com/blog/selenium-architecture/>
+- <https://artoftesting.com/selenium-webdriver-architecture>
+- <https://intellipaat.com/blog/selenium-architecture/#no5>
+- <https://www.softwaretestingmaterial.com/selenium-webdriver-architecture/>
+- <https://www.mindtools.com/aol0rms/stakeholder-analysis>
+- <https://www.forbes.com/advisor/business/what-is-stakeholder-analysis/>
+- <https://www.guru99.com/selenium-alternatives.html>
 - <https://github.com/SeleniumHQ/selenium/blob/trunk/CONTRIBUTING.md>
-
-- **Development Viewpoint**
-  - **Release Process**
-    - <https://github.com/SeleniumHQ/selenium/wiki/Releasing-Selenium>
-
-## <a name="_b2lz35fg5jk2"></a>**Pegs / Exemplars**
+- <https://github.com/SeleniumHQ/selenium/wiki/Releasing-Selenium>
 - <https://delftswa.gitbooks.io/desosa2018/content/>
 - <https://delftswa.gitbooks.io/desosa2018/content/jenkins/chapter.html>
 - <https://delftswa.gitbooks.io/desosa2018/content/react/chapter.html>
