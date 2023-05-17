@@ -482,25 +482,39 @@ WebDriver code user example:
 Here is an example code for testing a search form on a web application with the Selenium WebDriver. This example is written in Java.
 
 
-|<p>@Test<br>public void testSearchWebDriver code user example:</p><p>Here is an example code for testing a search form on a web application with the Selenium WebDriver. This example is written in Java.</p><p>() throws Exception {<br>`    `driver.get("https://example.com/search");<br>`    `driver.findElement(By.name("q")).sendKeys("Selenium WebDriver");<br>`    `driver.findElement(By.name("search")).click();<br>`    `assertTrue(driver.findElement(By.id("results")).isDisplayed());<br>}</p>|
-| - |
+```JAVA
+@Test
+public void testSearchWebDriver code user example:
+
+Here is an example code for testing a search form on a web application with the Selenium WebDriver. This example is written in Java.
+
+() throws Exception {
+  driver.get("https://example.com/search");
+  driver.findElement(By.name("q")).sendKeys("Selenium WebDriver");
+  driver.findElement(By.name("search")).click();
+  assertTrue(driver.findElement(By.id("results")).isDisplayed());
+}
+```
+
 
 The way we use the driver here is by first instantiating it but packages are needed beforehand, here is an example for the Firefox browser:
 
 To get started, you need to import following two packages:
 
 1. **org.openqa.selenium.\***– contains the WebDriver class needed to instantiate a new browser loaded with a specific driver
-1. **org.openqa.selenium.firefox.FirefoxDriver** – contains the FirefoxDriver class needed to instantiate a Firefox-specific driver onto the browser instantiated by the WebDriver class
+2. **org.openqa.selenium.firefox.FirefoxDriver** – contains the FirefoxDriver class needed to instantiate a Firefox-specific driver onto the browser instantiated by the WebDriver class
 
 
-|WebDriver driver = new FirefoxDriver();|
-| - |
+```java 
+WebDriver driver = new FirefoxDriver();
+```
 
 We then can launch a session with:
 
 
-|driver.get("https://example.com/search");|
-| - |
+```java
+driver.get("https://example.com/search");
+```
 
 The WebDrive provides many more functions such as driver.findElements() which allows us to locate components in a web application, we can retrieve the actual page title using driver.getTitle(), and we can close the browser session with driver.close() among many.
 
@@ -626,7 +640,7 @@ In terms of the structure of their source code, to cater to multiple languages a
 
 Fortunately, instead of having to build each of their selenium binding language client libraries, they make use of Rake, a well known ruby build tool used for building. Rake compiles a bundled JRuby jar invoked through their “go” wrapper to include all dependencies without the need for extra setup.
 
-`	`At the moment, Selenium is in the process of migrating to a new build system with bazel, however the full migration is not yet complete. Due to this, the new implementation of using bazel as the new build tool has not really been integrated with the existing rake-based solution they still use, and that occasionally need to also issue bazel commands directly to build the project.
+At the moment, Selenium is in the process of migrating to a new build system with bazel, however the full migration is not yet complete. Due to this, the new implementation of using bazel as the new build tool has not really been integrated with the existing rake-based solution they still use, and that occasionally need to also issue bazel commands directly to build the project.
 
 <div align="center">
 
